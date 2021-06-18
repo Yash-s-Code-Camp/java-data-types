@@ -1,5 +1,5 @@
-/*
- * primitive - 
+
+ ### primitive 
  * byte(1 byte)[-128 to 127], 
  * short(2 bytes) [-32,768 to 32,767], 
  * int(4 bytes) [-2,14,74,83,648 to 2147483647],
@@ -8,15 +8,18 @@
  *  double(8 bytes) [15 decimal digits],
  *  char(2 bytes) [ASCII Characters], 
  * boolean (1 bit) [0 or 1]
- * 
- * non-primitive - Array, Class, String
- */
 
-/*
-data type conversion/casting
-Widening Casting / Impicit casting (Automatically done by JVM)
- byte < short < char < int < long < float < double
+### non-primitive 
+* Array
+* Class
+* String
 
-Narrowing Casting / Explicit casting (Manually)
-double > float > long > int > char > short byte
-*/
+
+
+## data type conversion/casting
+### Widening Casting / Impicit casting _(Automatically done by JVM)_
+ ```byte < short < char < int < long < float < double```
+
+### Narrowing Casting / Explicit casting _(Manually)_
+```double > float > long > int > char > short > byte```
+
